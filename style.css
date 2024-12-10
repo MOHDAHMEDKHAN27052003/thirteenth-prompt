@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ri-map-pin-2-line{
+    color:gray;
+}
+
+.ri-menu-line{
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2123;
+    margin: 20px 66px;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+#menu-button-and-logo{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+}
+
+#goto{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#goto-location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ri-arrow-down-s-line{
+    color: red;
+}
+
+main{
+    display: flex;
+    padding: 33px 66px;
+    gap: 50px;
+}
+
+#content{
+    padding-top: 40px;
+    display: flex;
+    gap: 50px;
+}
+
+main h1{
+    font-size: 50px;
+}
+
+#poster{
+    width: 333px;
+    border-radius: 25px;
+}
+
+#tags{
+    display: flex;
+    gap: 15px;
+}
+
+#tags a{
+    color: gray;
+    background-color: #22252c;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+#info-icons{
+    display: flex;
+    gap: 33px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+#rating{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#duration{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#info-icons img{
+    width: 33px;
+}
+
+#description a{
+    text-decoration: none;
+}
+
+#description p{
+    padding-bottom: 25px;
+    color: gray;
+}
+
+#read-more{
+    font-size: large;
+}
+
+#description-buttons{
+    display: flex;
+    gap: 33px;
+    padding-top: 40px;
+}
+
+.trailer-button{
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: large;
+    border: none;
+    background-color:lightseagreen;
+}
+
+#watchlist-button{
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: large;
+    color: lightseagreen;
+    border: 1px solid lightseagreen;
+    background-color: white;
+}
+
+#credits h4{
+    color: lightblue;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+#credits h5{
+    color: gray;
+    font-weight: 400;
+    padding-bottom: 75px;
+}
+
+.credit{
+    border-top: 1px solid black;
+}

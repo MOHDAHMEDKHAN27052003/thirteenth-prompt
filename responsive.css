@@ -1,0 +1,65 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Your CSS rules here */
+    header nav{
+        display: none;
+    }
+
+    header #goto{
+        display: none;
+    }
+
+    main{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #film-title h1{
+      text-align: center;
+    }
+
+    #content{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #description-buttons{
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    /* Your CSS rules here */
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Your CSS rules here */
+    header nav{
+        display: none;
+    }
+
+    main{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #film-title h1{
+      text-align: center;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Your CSS rules here */
+    #description-buttons{
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    /* Your CSS rules here */
+  }  
